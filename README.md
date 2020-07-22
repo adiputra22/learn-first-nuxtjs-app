@@ -1,4 +1,5 @@
 # dadjokes
+Learning nuxtjs app from Traversy Media (https://www.youtube.com/watch?v=ltzlhAxJr74)
 
 ## Build Setup
 
