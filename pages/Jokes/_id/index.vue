@@ -9,6 +9,13 @@
 import axios from "axios";
 
 export default {
+    validate ({ params, query, store }) {
+        console.log(params);
+        console.log(query);
+        console.log(store);
+        // Must be a number
+        return !(/^\d+$/.test(params.id));
+    },
     data() {
         return {
             joke: {}
